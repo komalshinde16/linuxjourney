@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #2C3E50;
+    width: auto;
+    height: 55px;
+    display: flex;
+    gap: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.child1{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.child2{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.penguin{
+    background-color: #18bc9c;
+    height: 500px;
+     position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+
+.child3{
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: aliceblue;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parent1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+para1{
+    text-align: center;
+    font-family: sans-serif;
+    color: grey;
+}
+input[type="text"] {
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid grey;
+    margin-right: 10px;
+    margin-top: 30px;
+    color: grey;
+    border-radius: 5px;
+}
+button{
+    width: 90px;
+    height: 35px;
+    background-color: darkcyan;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
+.parent2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+para2{
+    font-size: 40px;
+    color: grey; 
+}
+
+.parent3{
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    height: 40vh;
+    width: 14vw;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    border: none;
+}
+.box1:hover{
+    background-color: darkcyan;
+}
+.box2:hover{
+    background-color: darkcyan;
+}
+.box3:hover{
+    background-color: darkcyan;
+}
+.box4:hover{
+    background-color: darkcyan;
+}
+
+.s1 img,
+.s2 img,
+.s3 img,
+.s4 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+para3 {
+    font-size: 14px;
+    margin-top:30px;
+}
+
